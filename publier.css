@@ -1,0 +1,22 @@
+.form-titre {
+    margin: 20px;
+    text-align: center;
+}
+
+.form-titre > label {
+    display: block;
+}
+
+.form-contenu {
+    margin: 20px;
+    text-align: center;
+}
+
+.form-contenu > label {
+    display: block
+}
+
+.form-bouton {
+    margin: 20px;
+    text-align: center;
+}

@@ -1,0 +1,13 @@
+p {
+    text-align: justify;
+    margin: 50px;
+}
+
+.container-voir-article {
+    text-align: center;
+}
+
+.link-voir-article {
+    padding: 5px;
+    border: 0.5px solid black;
+}
