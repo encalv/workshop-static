@@ -1,0 +1,23 @@
+.bouton-meteo {
+    padding: 4px;
+    border: 1px solid black;
+    font-family: "Virgil", sans-serif;
+    background: white;
+    font-size: large;
+    cursor: pointer;
+}
+
+.bouton-meteo:hover {
+    background: #e0d7d5;
+}
+
+.bouton-meteo-container {
+    margin-top: 80px;
+    text-align: center;
+}
+
+.message-meteo {
+    display: none;
+    margin-top: 20px;
+    text-align: center;
+}

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <title>WorkShop 1 : Site Web Statique</title>
+
+    <link rel="stylesheet" href="../../index.css">
+    <link rel="stylesheet" href="meteo.css">
+
+    <link rel="icon" href="../../favicon.ico" type="image/x-icon">
+
+</head>
+
+<body>
+<main>
+    <h1>Les Bases du Dev</h1>
+    <nav>
+        <ul>
+            <li><a href="../../index.html">Accueil</a></li>
+            <li><a href="../publier/publier.html">Publier</a></li>
+            <li><a href="../article/article.html">Article</a></li>
+            <li><a href="meteo.html">Météo</a></li>
+        </ul>
+    </nav>
+
+    <h2>Données Météo</h2>
+
+    <div class="bouton-meteo-container">
+        <button onclick="showMessage()" class="bouton-meteo">Quel temps fait-il aujourd'hui ?</button>
+    </div>
+
+    <p class="message-meteo"> > Aujourd'hui, le temps est ensoleillé et la température atteindra les 24°C.</p>
+
+</main>
+<script src="meteo.js"></script>
+</body>
+</html>
