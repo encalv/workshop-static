@@ -39,3 +39,8 @@ a {
     color: black;
     font-size: 22px;
 }
+
+.titre {
+    text-align: center;
+    font-size: 3em;
+}
